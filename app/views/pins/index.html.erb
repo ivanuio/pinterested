@@ -4,6 +4,7 @@
 
 <div id="pins">
   <% @pins.each do |pin| %>
+    <p><%= image_tag pin.image, width: 300  %> </p>
     <%= render pin %>
     <p>
       <%= link_to "Show this pin", pin %>
