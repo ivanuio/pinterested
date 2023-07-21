@@ -2,5 +2,11 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 require jquery //this solved a f problem when the dropdown menu was not working
+require jquery.turbolinks
+require jquery_ujs
 require bootstrap.js
 require bootstrap.css
+require masonry/jquery.masonry
+require masonry/jquery.imagesloaded.min
+require turbolinks
+require_tree .

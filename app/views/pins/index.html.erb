@@ -1,15 +1,23 @@
-<p style="color: green"><%= notice %></p>
+<!-- <div class="pins"> -->
+<h1>Experience</h1></br> </br>
+</div>
+<link rel="stylesheet" href="pins.css.scss">
+<%= stylesheet_link_tag('pins') %>
 
-<h1>Pins</h1>
-
-<div id="pins">
-  <% @pins.each do |pin| %>
-    <p><%= image_tag pin.image, width: 300  %> </p>
+ <div class="container"
+   <% @pins.each do |pin| %>
+   <div class="box"> 
+    <%= link_to image_tag(pin.image, width: 300), pin %> 
     <%= render pin %>
-    <p>
+    
+      <%= pin.user.name if pin.user %></br>
       <%= link_to "Show this pin", pin %>
-    </p>
   <% end %>
+    </div>
+  </div>
 </div>
 
+<% if user_signed_in? %>
 <%= link_to "New pin", new_pin_path %>
+<% end %>
+ 

@@ -1,0 +1,25 @@
+//#pins {
+//  margin: 0 auto;
+//}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  columns: 3;
+
+}
+
+
+.box {
+  //margin: 5px;
+  width: 314px;
+  float: left;
+
+}
+
+.box img {
+  width: 100%;
+  heigth: 300px;
+  object-fit: contain;
+}
+
