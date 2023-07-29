@@ -1,14 +1,8 @@
-.grid-item { width: 400px; }
-
-
-*{
-  margin:0; padding:0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-.container{
-  max-width: 85%;
+.containero {
+columns: 350px;
+//column-width: 300px;
+//column-count: 3;
+overflow: hidden;
 
 }
 
@@ -16,46 +10,15 @@
   margin: 0 auto;
 }
 
-
-//.grid {
-  //max-width: 60rem;
-  //margin: 0 auto;
-  //display: grid;
-  //grid-template-columns: repeat(3, 1fr);
-//}
-
-.containero {
-  width: 800px;
-  margin: 0px auto;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1em; /* Set the gap between grid items */
-
-/* Media query for screens wider than 600px */
-  @media screen and (min-width: 600px) {
-    grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
-  }
-
-  /* Media query for screens wider than 900px */
-  @media screen and (min-width: 900px) {
-    grid-template-columns: repeat(4, 1fr); /* Change to 4 columns */
-  }
-
-  /* You can add more media queries for other screen widths if needed */
-}
-
-
 .box {
-  //margin: 5px;
-  width: 400px;
-  float: left;
 
+  margin: 5px;
+  width: 314px;
 }
 
 .box img {
   width: 100%;
-  heigth: 300px;
-  object-fit: contain;
 }
-
+ containero div {
+overflow: hidden; 
+ }
