@@ -47,7 +47,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Use Sass to process CSS
 # gem "sassc-rails"
 gem 'sassc-rails', '>= 2.1.0'
-gem 'sass-rails' #
+gem 'sass-rails' 
 
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -61,6 +61,9 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
  gem "image_processing", "~> 1.2"
  gem 'jquery-turbolinks'
  gem 'masonry-rails'#, '~> 0.2.4'
+
+ gem 'will_paginate', '~> 4.0'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
