@@ -265,8 +265,14 @@ GEM
     zeitwerk (2.6.8)
 
 PLATFORMS
+<<<<<<< HEAD
   x64-mingw-ucrt
   x86_64-linux
+=======
+  x86_64-linux
+
+
+>>>>>>> 66f776ce54f121896770d3963bd3cd9a870b63eb
 
 DEPENDENCIES
   bootsnap
